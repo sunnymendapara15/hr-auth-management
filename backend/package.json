@@ -1,0 +1,24 @@
+{
+  "name": "hr-auth-backend",
+  "version": "1.0.0",
+  "description": "Express API for HR login, signup, and user CRUD.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": ["hr","auth","jwt","sqlite","express"],
+  "author": "sunnymendapara15",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "better-sqlite3": "^8.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
